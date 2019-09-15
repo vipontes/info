@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".View.NewsDetail.NewsDetailActivity"
+        android:gravity="center_horizontal">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+        <ImageView
+                android:id="@+id/newsImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:src="@mipmap/ic_launcher"
+                android:minHeight="200dp" />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/newsTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="title"
+                    android:layout_marginTop="5dp"
+                    style="@style/Title"/>
+
+            <TextView
+                    android:id="@+id/newsDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="Description"
+                    android:textStyle="italic"
+                    android:layout_marginTop="15dp"
+                    style="@style/Text"/>
+
+            <TextView
+                    android:id="@+id/newsContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="Content"
+                    android:layout_marginTop="15dp"
+                    style="@style/Text"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Complete news:"/>
+
+            <TextView
+                    android:id="@+id/newsUrl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic"
+                    android:textColor="#0000ff"
+                    android:textSize="14dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
