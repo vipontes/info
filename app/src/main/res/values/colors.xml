@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <!--https://material.io/resources/color/#!/?view.left=0&view.right=0-->
-
     <color name="primaryColor">#880e4f</color>
     <color name="primaryLightColor">#bc477b</color>
     <color name="primaryDarkColor">#560027</color>
     <color name="primaryTextColor">#ffffff</color>
-
     <color name="primaryBackgroundColor">#D6D6D6</color>
-
-
     <color name="colorPrimary">@color/primaryColor</color>
     <color name="colorPrimaryDark">@color/primaryDarkColor</color>
     <color name="colorAccent">@color/primaryLightColor</color>
-
     <color name="tab_background_selected">@color/primaryDarkColor</color>
     <color name="tab_background_unselected">@color/primaryColor</color>
-
+    <color name="currencyBackground">#1B1B1B</color>
+    <color name="currencyTitle">#1B1B1B</color>
+    <color name="currencyText">#1B1B1B</color>
+    <color name="currencyValue">#000000</color>
 </resources>

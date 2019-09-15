@@ -3,9 +3,8 @@ package br.net.easify.info.ViewModel
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
-import br.net.easify.info.Model.Articles
 import br.net.easify.info.Model.News
-import br.net.easify.info.Model.NewsService
+import br.net.easify.info.Services.NewsService
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.observers.DisposableSingleObserver

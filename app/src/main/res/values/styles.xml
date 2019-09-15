@@ -8,7 +8,6 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-
     <!-- Base application theme. -->
     <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
@@ -25,4 +24,28 @@
     <style name="Text">
         <item name="android:textSize">14sp</item>
     </style>
+
+    <style name="CurrencyTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/currencyTitle</item>
+    </style>
+
+    <style name="CurrencyText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/currencyText</item>
+    </style>
+
+    <style name="CurrencyDate">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/currencyText</item>
+    </style>
+
+    <style name="CurrencyValue">
+        <item name="android:textSize">32sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/currencyValue</item>
+    </style>
+
 </resources>
