@@ -11,9 +11,12 @@ android {
         applicationId "br.net.easify.info"
         minSdkVersion 16
         targetSdkVersion 29
-        versionCode 1
-        versionName "1.0.1"
+        versionCode 3
+        versionName "1.0.3"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    dataBinding {
+        enabled = true
     }
     buildTypes {
         release {
@@ -45,7 +48,6 @@ dependencies {
     implementation "com.google.android.material:material:1.0.0"
 
     implementation "com.google.android.material:material:1.0.0"
-    implementation 'com.squareup.picasso:picasso:2.71828'
     implementation 'com.android.support:multidex:1.0.3'
     implementation "android.arch.lifecycle:extensions:$lifeCycleExtensionVersion"
     implementation "androidx.navigation:navigation-fragment-ktx:$navVersion"

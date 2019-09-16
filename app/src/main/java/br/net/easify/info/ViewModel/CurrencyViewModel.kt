@@ -19,12 +19,19 @@ class CurrencyViewModel(application: Application) : AndroidViewModel(application
     val loadError by lazy { MutableLiveData<Boolean>() }
     val loading by lazy { MutableLiveData<Boolean>() }
 
+    val conversionValue by lazy { MutableLiveData<String>() }
+
+
     private val conversionService = ConversionService()
     private val disposable = CompositeDisposable()
 
     fun refresh() {
         loading.value = true
         getAll()
+    }
+
+    init {
+        conversionValue.value = "5"
     }
 
     private fun parseConversion() {

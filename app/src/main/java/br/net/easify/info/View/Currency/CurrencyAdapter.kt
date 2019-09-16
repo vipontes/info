@@ -30,6 +30,8 @@ class CurrencyAdapter(private val currencies: ArrayList<Currency>): RecyclerView
         holder.view.currencyCode.text = currencies[position].code
         holder.view.currencyDate.text = currencies[position].createDate
         holder.view.currencyConvertion.text = currencies[position].high
+        holder.view.currencyLow.text = currencies[position].low
+        holder.view.currencyHigh.text = currencies[position].high
     }
 
     inner class CurrencyViewHolder(var view: View): RecyclerView.ViewHolder(view)
